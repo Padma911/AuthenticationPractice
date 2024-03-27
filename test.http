@@ -1,0 +1,60 @@
+PUT http://localhost:3030/createUser
+###
+
+//REGISTER
+POST http://localhost:3030/register
+Content-Type: application/json
+
+{   
+    "name":"rahul",
+    "username":"jjk3",
+    "password": "rah56",
+    "gender": "Male",
+    "location":"hyderabad"
+}
+
+###
+//LOGIN 
+POST http://localhost:3030/login
+Content-Type: application/json
+
+{   
+    "name":"rahul",
+    "username":"jjk3",
+    "password": "rah56",
+    "gender": "Male",
+    "location":"hyderabad"
+}
+
+###
+GET http://localhost:3030/posts
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpqazMiLCJpYXQiOjE3MTE1MTE2NTIsImV4cCI6MTcxMTUxMTY2Mn0.M8lIIR4UJQisuK7q_MreB89jjgDNWpQYLY2LKCzIE7U
+
+# to login 
+# first check the use exists 
+# if user doesn't exist 
+# first register 
+# if user exists 
+# it will check whether the user password is right or wrong 
+# if password wrong go away cheater 
+
+# right
+
+# it will show you login successfully 
+
+
+
+
+# register login register chesaetappudu post method vadavachu
+# body vastadhi 
+# ok na 
+# body lo part thesukuni run cheyali 
+# insert into pettalsi untadhi 
+# and 
+# there are two cases 
+# one case check if the user is already in database
+# if he is there raise an error response that user already exists
+
+# other case 
+# Take details and put it into database 
+
